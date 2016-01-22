@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Administrar</title>
+</head>
+<body>
+	<h1>Administrar Locales</h1>
+	<form action="http://localhost/montserrat/index.php/negocio/ingresarLocal" method="POST">
+		<label for="ingresarSM">numero Local:</label>
+		<input type="text" name="ingresarSM"><br />
+		<label for="ingresarNombre">Nombre</label>
+		<input type="text" name="ingresarNombre"><br />
+		<label for="ingresarDireccion">Dirección</label>
+		<input type="text" name="ingresarDireccion"><br />
+		<input type="submit"><br>
+	</form>
+
+	<form action="http://localhost/montserrat/index.php/negocio/modificarLocal" method="POST">
+		<label for="modificarSM">SM</label>
+		<input type="text" name="modificarSM"><br />
+		<label for="modificarNombre">nombre</label>
+		<input type="text" name="modificarNombre"><br />
+		<label for="modificarDireccion">Dirección</label>
+		<input type="text" name="modificarDireccion"><br />
+		<input type="submit"><br>
+	</form>
+	<form action="http://localhost/montserrat/index.php/negocio/eliminarLocal" method="POST">
+		<label for="EliminarSM">SM</label>
+		<input type="text" name="EliminarSM"><br />
+		<input type="submit"><br>
+	</form>
+</body>
+</html>

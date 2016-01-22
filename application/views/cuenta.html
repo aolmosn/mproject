@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>ingresar Servicio</h1>
+	<form action="http://localhost/montserrat/index.php/servicio/ingresarcuenta" method="POST">
+		<label for="ingresarID">identificador</label>
+		<input type="text" name="ingresarID"><br />
+		<label for="ingresarDescripcion">Descripción</label>
+		<input type="text" name="ingresarDescripcion"><br />
+		<input type="submit">
+	</form>
+	<form action="http://localhost/montserrat/index.php/servicio/modificarcuenta" method="POST">
+		<label for="modificarID">Identificador</label>
+		<input type="text" name="modificarID"><br />
+		<label for="mdificarDescripcion">Dscripción</label>
+		<input type="text" name="mdificarDescripcion"><br />
+		<input type="submit">
+	</form>
+	<form action="http://localhost/montserrat/index.php/servicio/eliminarcuenta" method="POST">
+		<label for="eliminarID">identificador</label>
+		<input type="text" name="eliminarID"><br />
+		<input type="submit">
+	</form>
+</body>
+</html>
