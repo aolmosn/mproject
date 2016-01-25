@@ -1,53 +1,12 @@
 <?php
 
-error_reporting(E_ALL);
-
-/**
- * servicios - class.Numero_Ciente.php
- *
- * $Id$
- *
- * This file is part of servicios.
- *
- * Automatically generated on 21.01.2016, 18:26:46 with ArgoUML PHP module 
- * (last revised $Date: 2008-04-19 08:22:08 +0200 (Sat, 19 Apr 2008) $)
- *
- * @author Andrés Olmos Navia, <andres.olmos.n@gmail.com>
- */
-
-if (0 > version_compare(PHP_VERSION, '5')) {
-    die('This file was generated for PHP 5');
-}
-
-/**
- * include Proveedor
- *
- * @author Andrés Olmos Navia, <andres.olmos.n@gmail.com>
- */
-require_once('class.Proveedor.php');
-
-/**
- * include Tipo_servicio
- *
- * @author Andrés Olmos Navia, <andres.olmos.n@gmail.com>
- */
-require_once('class.Tipo_servicio.php');
-
-/* user defined includes */
-// section -84-17-6-96--1bde6f9e:15212f5fa88:-8000:0000000000001120-includes begin
-// section -84-17-6-96--1bde6f9e:15212f5fa88:-8000:0000000000001120-includes end
-
-/* user defined constants */
-// section -84-17-6-96--1bde6f9e:15212f5fa88:-8000:0000000000001120-constants begin
-// section -84-17-6-96--1bde6f9e:15212f5fa88:-8000:0000000000001120-constants end
-
 /**
  * Short description of class Numero_Ciente
  *
  * @access public
  * @author Andrés Olmos Navia, <andres.olmos.n@gmail.com>
  */
-class Numero_Ciente extends CI_Model
+class Cliente_Servicio extends CI_Model
 {
     // --- ASSOCIATIONS ---
     // generateAssociationEnd :     // generateAssociationEnd : 
@@ -68,7 +27,7 @@ class Numero_Ciente extends CI_Model
      * @access private
      * @var int
      */
-    private $rut_proveedor = 0;
+    private $proveedor = 0;
 
     /**
      * numero de local al que esta asignado
@@ -89,8 +48,7 @@ class Numero_Ciente extends CI_Model
      */
     public function __construct()
     {
-        // section -84-17-6-96--1bde6f9e:15212f5fa88:-8000:0000000000001134 begin
-        // section -84-17-6-96--1bde6f9e:15212f5fa88:-8000:0000000000001134 end
+        parent::__cosntruct();
     }
 
     /**
@@ -102,11 +60,7 @@ class Numero_Ciente extends CI_Model
      */
     public function getId()
     {
-        $returnValue = (int) 0;
-
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:00000000000010FC begin
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:00000000000010FC end
-
+        $returnValue = (int) $this->id;
         return (int) $returnValue;
     }
 
@@ -120,10 +74,8 @@ class Numero_Ciente extends CI_Model
      */
     public function setID_Cliente($id)
     {
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001100 begin
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001100 end
+        $this->id = $id;
     }
-
     /**
      * Obtiene el rut al que pertenece ese numero de cliente
      *
@@ -131,14 +83,9 @@ class Numero_Ciente extends CI_Model
      * @author Andrés Olmos Navia, <andres.olmos.n@gmail.com>
      * @return String
      */
-    public function getRut()
+    public function getProveedor()
     {
-        $returnValue = null;
-
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001105 begin
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001105 end
-
-        return $returnValue;
+        return $this->proveedor;
     }
 
     /**
@@ -149,10 +96,9 @@ class Numero_Ciente extends CI_Model
      * @param  int rut Rut del proveedor a  asignar
      * @return void
      */
-    public function setRut($rut)
+    public function setProveedor($proveedor)
     {
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:000000000000110E begin
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:000000000000110E end
+        $this->proveedor = $proveedor;
     }
 
     /**
@@ -164,12 +110,8 @@ class Numero_Ciente extends CI_Model
      */
     public function getLocal()
     {
-        $returnValue = (int) 0;
-
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001113 begin
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001113 end
-
-        return (int) $returnValue;
+        
+        return $this->local;
     }
 
     /**
@@ -182,8 +124,7 @@ class Numero_Ciente extends CI_Model
      */
     public function setLocal($local)
     {
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001115 begin
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001115 end
+        $this->local = $local;
     }
 
     /**
@@ -194,7 +135,7 @@ class Numero_Ciente extends CI_Model
      * @param  Numero_Ciente Numero_Cliente Objeto cliente que se desea ingrear
      * @return void
      */
-    public static function ingresar_Numero_Cliente( Numero_Ciente $Numero_Cliente)
+    public static function create_CleinteServicio( Numero_Ciente $Numero_Cliente)
     {
         // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:000000000000111B begin
         // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:000000000000111B end
@@ -209,7 +150,7 @@ class Numero_Ciente extends CI_Model
      * @param  Numero_Ciente numero_cliente Objeto cliente que reemplazara la información
      * @return void
      */
-    public static function modificar_Numero_Cliente($id,  Numero_Ciente $numero_cliente)
+    public static function update_ClienteServicio($id,  Numero_Ciente $numero_cliente)
     {
         // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001120 begin
         // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001120 end
@@ -223,7 +164,7 @@ class Numero_Ciente extends CI_Model
      * @param  int id Identificador del cliente a eliminar
      * @return void
      */
-    public static function eliminar_Numero_Cliente($id)
+    public static function delete_ClienteServicio($id)
     {
         // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001127 begin
         // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001127 end
