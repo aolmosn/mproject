@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Administrar Cliente</title>
+</head>
+<body>
+	<h1>Administrar Cliente</h1>
+	<form action="<?= base_url()?>/servicio/ingresarCliente" method = "POST">
+		<label for="ingeresarID">id</label>
+		<input type="text" name="ingeresarID"><br />
+		<label for="ingresarProveedor">proveedor</label>
+		<input type="text" name="ingresarProveedor"><br />
+		<label for="ingresarLocal">Local</label>
+		<input type="text" name="ingresarLocal"><br />
+		<input type="submit">
+	</form>
+	<form action="<?= base_url()?>/servicio/modificarCliente" method="POST">
+		<label for="modificarID">ID</label>
+		<input type="text" name="modificarID"><br />
+		<label for="modificarProveedor">Proveedor</label>
+		<input type="text" name="modificarProveedor"><br />
+		<label for="modificarLocal">local</label>
+		<input type="text" name="modificarLocal"><br />
+		<input type="submit">
+	</form>
+	<form action="<?= base_url()?>/servicio/eliminarCliente" method="POST">
+		<label for="eliminarID">ID</label>
+		<input type="text" name="eliminarCliente"><br />
+		<input type="submit">
+	</form>
+	
+</body>
+</html>

@@ -6,7 +6,7 @@
 </head>
 <body>
 	<h1>Administrar Locales</h1>
-	<form action="http://localhost/montserrat/index.php/negocio/ingresarLocal" method="POST">
+	<form action="<?= base_url()?>/negocio/ingresarLocal" method="POST">
 		<label for="ingresarSM">numero Local:</label>
 		<input type="text" name="ingresarSM"><br />
 		<label for="ingresarNombre">Nombre</label>
@@ -16,7 +16,7 @@
 		<input type="submit"><br>
 	</form>
 
-	<form action="http://localhost/montserrat/index.php/negocio/modificarLocal" method="POST">
+	<form action="<?= base_url()?>/negocio/modificarLocal" method="POST">
 		<label for="modificarSM">SM</label>
 		<input type="text" name="modificarSM"><br />
 		<label for="modificarNombre">nombre</label>
@@ -25,7 +25,7 @@
 		<input type="text" name="modificarDireccion"><br />
 		<input type="submit"><br>
 	</form>
-	<form action="http://localhost/montserrat/index.php/negocio/eliminarLocal" method="POST">
+	<form action="<?= base_url()?>/negocio/eliminarLocal" method="POST">
 		<label for="EliminarSM">SM</label>
 		<input type="text" name="EliminarSM"><br />
 		<input type="submit"><br>

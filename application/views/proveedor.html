@@ -5,7 +5,7 @@
 	<title>Proveedor</title>
 </head>
 <body>
-	<form action="http://localhost/montserrat/index.php/servicio/ingresarProveedor" method="POST">
+	<form action="<?= base_url()?>/servicio/ingresarProveedor" method="POST">
 		<label for="analisis">Analitico:</label>
 		<input type="text" name="analisis"><br />
 		<label for="razonSocial">Razon Social:</label>
@@ -14,12 +14,12 @@
 		<input type="text" name="ingresarServicio"><br />
 		<input type="submit" name="enviar">
 	</form>
-	<form action="http://localhost/montserrat/index.php/servicio/eliminarProveedor" method="POST">
+	<form action="<?= base_url()?>/servicio/eliminarProveedor" method="POST">
 		<label for="ELIMINAR">Analitico</label>
 		<input type="text" name="ELIMINAR"><br />
 		<input type="submit" name="Eliminar">
 	</form>
-	<form action="http://localhost/montserrat/index.php/servicio/modificarProveedor" method="POST">
+	<form action="<?= base_url()?>/servicio/modificarProveedor" method="POST">
 	<label for="modificarAnalisis">Analitico</label>
 	<input type="text" name="modificarAnalisis"><br />
 	<label for="modificarRazonSocial">Razon Social</label>

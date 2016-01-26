@@ -48,9 +48,22 @@ class Cliente_Servicio extends CI_Model
      */
     public function __construct()
     {
-        parent::__cosntruct();
+        parent::__construct();
     }
 
+    public static function __construct1($id,$proveedor,$local){
+        $cliente = new Cliente_Servicio();
+        $cliente->setID_Cliente($id);
+        $cliente->setProveedor($proveedor);
+        $cliente->setLocal($local);
+        return $cliente;
+    }
+    public static function __construct2($proveedor,$local){
+        $cliente = new Cliente_Servicio();
+        $cliente->setProveedor($proveedor);
+        $cliente->setLocal($local);
+        return $cliente;
+    }
     /**
      * Obtienen el valor de la variable id.
      *
@@ -135,10 +148,20 @@ class Cliente_Servicio extends CI_Model
      * @param  Numero_Ciente Numero_Cliente Objeto cliente que se desea ingrear
      * @return void
      */
-    public static function create_CleinteServicio( Numero_Ciente $Numero_Cliente)
+    public function create_CleinteServicio($Cliente)
     {
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:000000000000111B begin
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:000000000000111B end
+        $data = array(
+            'ID' => $Cliente->getId(),
+            'PROVEEDOR' => $Cliente->getProveedor(),
+            'LOCAL' => $Cliente->getLocal()
+            );
+        //Metodo que inserta los datos a la base de datos
+        //Parametros son 'tabla',$data
+        $resultado = $this->db->insert('CLIENTE_SERVICIO',$data);
+        if ($resultado==1){
+            return true;
+        }
+        return false;
     }
 
     /**
@@ -150,10 +173,18 @@ class Cliente_Servicio extends CI_Model
      * @param  Numero_Ciente numero_cliente Objeto cliente que reemplazara la información
      * @return void
      */
-    public static function update_ClienteServicio($id,  Numero_Ciente $numero_cliente)
+    public function update_ClienteServicio($id, $Cliente)
     {
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001120 begin
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001120 end
+        $data = array(
+            'PROVEEDOR' => $Cliente->getProveedor(),
+            'LOCAL' => $Cliente->getLocal()
+            );
+        $this->db->where('ID',$id);
+        $resultado = $this->db->update('CLIENTE_SERVICIO',$data);
+        if($resultado=1){
+            return true;
+        }
+        return false;
     }
 
     /**
@@ -164,11 +195,51 @@ class Cliente_Servicio extends CI_Model
      * @param  int id Identificador del cliente a eliminar
      * @return void
      */
-    public static function delete_ClienteServicio($id)
+    public function delete_ClienteServicio($id)
     {
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001127 begin
-        // section -84-17-6-96--31b9eddf:1521dec9e48:-8000:0000000000001127 end
+        $resultado = $this->db->delete('CLIENTE_SERVICIO',array('ID' => $id));
+        if($resultado == 1){
+            return true;
+        }
+        return false;
     }
+      /**
+     * Lista una tabla con los proveedores que existen
+     * @return string con la tabla 
+     */
+     public function listar_Cliente(){
+        $this->db->select('*')->from('CLIENTE_SERVICIO');
+        $query = $this->db->get();
+        if($query->num_rows()>0){
+            return $query->result();
+        }
+     }
+
+     public function to_table($consulta){
+        echo "<table>";
+        if($consulta != null){
+            $titulo = false;
+            foreach ($consulta as $fila) {
+                //Recupera Titulos
+                if(!$titulo){
+                    echo "<tr>";
+                    foreach ($fila as $key => $value) {
+                        echo "<td>$key</td>";
+                    }
+                    echo "</tr>";
+                $titulo=true;
+                }
+                //Recupera valor
+                echo "<tr>";
+                foreach ($fila as $key => $value) {
+                    echo "<td>$value</td>";
+                }
+                echo "</tr>";
+            }
+            echo "</table>";
+        }
+        echo "</table>";
+     }
 
 } /* end of class Numero_Ciente */
 

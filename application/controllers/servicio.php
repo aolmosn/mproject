@@ -6,6 +6,7 @@ Class Servicio extends CI_Controller{
 		$this->load->model('proveedor');
 		$this->load->model('servicios');
 		$this->load->model('cuenta');
+		$this->load->model('Cliente_Servicio');
 	}
 	public function index(){
 		$this->load->view('index.html');
@@ -115,5 +116,30 @@ Class Servicio extends CI_Controller{
 	}
 	//Fin Controles de Servicio
 
-	
+	//Controles Cliente_Servicio
+	public function administrarCliente(){
+		$this->load->view('administrarCliente.html');
+	}
+	public function ingresarCliente(){
+		$id = $_POST['ingeresarID'];
+		$proveedor = $_POST['ingresarProveedor'];
+		$local = $_POST['ingresarLocal'];
+		$cliente = Cliente_Servicio::__construct1($id,$proveedor,$local);
+		$cliente->create_CleinteServicio($cliente);
+		$this->load->view('administrarCliente.html');
+	}
+	public function modificarCliente(){
+		$id = $_POST['modificarID'];
+		$proveedor = $_POST['modificarProveedor'];
+		$local = $_POST['modificarLocal'];
+		$cliente = CLiente_Servicio::__construct2($proveedor,$local);
+		$cliente->update_ClienteServicio($id,$cliente);
+		$this->load->view('administrarCliente.html');
+	}
+	public function eliminarCliente(){
+		$id = $_POST['modificarID'];
+		$cliente = new Cliente_Servicio();
+		$cliente->delete_ClienteServicio($id);
+	}	
+	//Fin Controles CLiente_Servicio
 }

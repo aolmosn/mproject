@@ -6,7 +6,7 @@
 </head>
 <body>
 	<h1>Mantenedor Luz</h1>
-	<form action="http://localhost/montserrat/index.php/servicio/ingresarServicio"method="POST">
+	<form action="<?= base_url()?>/servicio/ingresarServicio"method="POST">
 		<label for="ingresarID">Identificador:</label>
 		<input type="text" name="ingresarID"><br />
 		<label for="ingresarDescripcion">Descripcion</label>
@@ -15,7 +15,7 @@
 		<input type="text" name="ingresarCuenta"><br />
 		<input type="submit">
 	</form>
-	<form action="http://localhost/montserrat/index.php/servicio/modificarServicio"method="POST">
+	<form action="<?= base_url()?>/servicio/modificarServicio"method="POST">
 		<label for="modificarID">Identificador</label>
 		<input type="text" name="modificarID"><br />
 		<label for="modificarDescripcion">Descripción</label>
@@ -24,7 +24,7 @@
 		<input type="text" name="modificarCuenta"><br />
 		<input type="submit">
 	</form>
-	<form action="http://localhost/montserrat/index.php/servicio/eliminarServicio"method="POST">
+	<form action="<?= base_url()?>/servicio/eliminarServicio"method="POST">
 		<label for="eliminarID">Identificador</label>
 		<input type="text" name="eliminarID"><br />
 		<input type="submit">

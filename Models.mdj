@@ -1,0 +1,1855 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Servicios",
+					"visible": true,
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAFSf2KeLjzk75c=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFSf2KeLjzl5kM=",
+									"_parent": {
+										"$ref": "AAAAAAFSf2KeLjzk75c="
+									},
+									"model": {
+										"$ref": "AAAAAAFSf2KeLDziFKk="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFSf2KeLzzmFzA=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeLjzl5kM="
+											},
+											"visible": false,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": -72,
+											"top": 192,
+											"width": 0,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"horizontalAlignment": 2,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFSf2KeLzznWWQ=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeLjzl5kM="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;1",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 231,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "Detalle_Servicio",
+											"horizontalAlignment": 2,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFSf2KeLzzooVs=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeLjzl5kM="
+											},
+											"visible": false,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": -72,
+											"top": 192,
+											"width": 72,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "(from Model)",
+											"horizontalAlignment": 2,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFSf2KeLzzpeWc=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeLjzl5kM="
+											},
+											"visible": false,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": -72,
+											"top": 192,
+											"width": 0,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"horizontalAlignment": 1,
+											"verticalAlignment": 5
+										}
+									],
+									"visible": true,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 104,
+									"top": 224,
+									"width": 265,
+									"height": 25,
+									"autoResize": false,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFSf2KeLzzmFzA="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFSf2KeLzznWWQ="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFSf2KeLzzooVs="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFSf2KeLzzpeWc="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFSf2KeMDzqvgQ=",
+									"_parent": {
+										"$ref": "AAAAAAFSf2KeLjzk75c="
+									},
+									"model": {
+										"$ref": "AAAAAAFSf2KeLDziFKk="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFSf2Tqpj0QNSo=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzqvgQ="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2TqQT0Ntc4="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 254,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "-ID = 0",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFSf2V2XT0awZ0=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzqvgQ="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2V1/D0XlFI="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 269,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "-local",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFSf2Ztmj0klFI=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzqvgQ="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2ZtRT0h4Pk="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 284,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "-proveedor",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFSf2c1BT0uJmA=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzqvgQ="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2c0uj0rfRo="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 299,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "-cliente",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFSf2ewdz034ko=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzqvgQ="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2ewJz00C7w="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 314,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "-periodo",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFSf2gyAD1Ayfg=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzqvgQ="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2gxrj09EyI="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 329,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "-desde",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFSf2i5NT1KTPA=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzqvgQ="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2i42j1HU00="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 344,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "-hasta",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFSf2j5QD1T45w=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzqvgQ="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2j46j1QiGs="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 359,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "-total",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										}
+									],
+									"visible": true,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 104,
+									"top": 249,
+									"width": 265,
+									"height": 128,
+									"autoResize": false
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFSf2KeMDzrPV0=",
+									"_parent": {
+										"$ref": "AAAAAAFSf2KeLjzk75c="
+									},
+									"model": {
+										"$ref": "AAAAAAFSf2KeLDziFKk="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf2l+eT1ciV4=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2l+MD1ZuaM="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 382,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+get_ID()",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf26xaT2l9vA=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf26xDj2iqao="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 397,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+set_ID(id)",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf2pGkT1lZ7c=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2pGPj1iXDM="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 412,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+get_Local()",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf2+LYj2zCRI=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2+LCD2wPmw="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 427,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+set_Local(local)",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf2uDMT13+ss=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2uC3j1053E="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 442,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+get_Proveedor()",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf3EULT3C9u0=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf3ET1j2/ZEk="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 457,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+set_Proveedor(proveedor)",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf2q/cT1ueQQ=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2q/Fz1rMt0="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 472,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+get_Cliente()",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf3LQsz3mvOE=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf3LQZz3jA3E="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 487,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+set_Cliente(cliente)",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf2wtcD2BW1s=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2wtHz1+XxI="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 502,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+get_Periodo()",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf3QQuz34/1E=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf3QQcD31YQE="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 517,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+set_Periodo(periodo)",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf2yoFz2KBnQ=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf2ynwD2Htfo="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 532,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+get_desde()",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf3XSAz4MFFY=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf3XRrz4JBHA="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 547,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+set_Desde(desde)",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf20+tT2TavM=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf20+XD2QJ8g="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 562,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+get_Hasta()",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf3bhxj4cpfk=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf3bhdD4ZSRo="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 577,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+set_Hasta(hasta)",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf25JQT2cfGU=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf25I7j2ZE6k="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 592,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+get_Total()",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf3fpPT4rrVg=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf3fpAj4ofIU="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 607,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+set_Total()",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf3h67D40cNM=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf3h6lj4xmMc="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 622,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+create_Detalle_Servicio(DetalleServicio)",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf3oJfz5DJGs=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf3oJFj5ApyM="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 637,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+update_Detalle_Servicio(id, detalleServicio)",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf3tlPz5Uo84=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf3tk5z5R310="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 652,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+delete_Detalle_Servcio(id)",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf3yY5D5hAiY=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf3yYjz5elkY="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 667,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+listar_Detalle_Servicio()",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFSf4frJD5qin0=",
+											"_parent": {
+												"$ref": "AAAAAAFSf2KeMDzrPV0="
+											},
+											"model": {
+												"$ref": "AAAAAAFSf4fq1z5nDtg="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 109,
+											"top": 682,
+											"width": 255,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+to_table(consulta)",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5
+										}
+									],
+									"visible": true,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": 104,
+									"top": 377,
+									"width": 265,
+									"height": 323,
+									"autoResize": false
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFSf2KeMTzsQDg=",
+									"_parent": {
+										"$ref": "AAAAAAFSf2KeLjzk75c="
+									},
+									"model": {
+										"$ref": "AAAAAAFSf2KeLDziFKk="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": -48,
+									"top": 128,
+									"width": 10,
+									"height": 10,
+									"autoResize": false
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFSf2KeMTzt7lQ=",
+									"_parent": {
+										"$ref": "AAAAAAFSf2KeLjzk75c="
+									},
+									"model": {
+										"$ref": "AAAAAAFSf2KeLDziFKk="
+									},
+									"visible": false,
+									"enabled": true,
+									"lineColor": "#000000",
+									"fillColor": "#ffffff",
+									"fontColor": "#000000",
+									"font": "Arial;13;0",
+									"showShadow": true,
+									"containerChangeable": false,
+									"containerExtending": false,
+									"left": -48,
+									"top": 128,
+									"width": 10,
+									"height": 10,
+									"autoResize": false
+								}
+							],
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": true,
+							"containerExtending": false,
+							"left": 104,
+							"top": 224,
+							"width": 265,
+							"height": 476,
+							"autoResize": false,
+							"stereotypeDisplay": "label",
+							"showVisibility": true,
+							"showNamespace": false,
+							"showProperty": true,
+							"showType": true,
+							"nameCompartment": {
+								"$ref": "AAAAAAFSf2KeLjzl5kM="
+							},
+							"wordWrap": false,
+							"suppressAttributes": false,
+							"suppressOperations": false,
+							"suppressReceptions": true,
+							"showMultiplicity": true,
+							"showOperationSignature": true,
+							"attributeCompartment": {
+								"$ref": "AAAAAAFSf2KeMDzqvgQ="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFSf2KeMDzrPV0="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFSf2KeMTzsQDg="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFSf2KeMTzt7lQ="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFSf2KeLDziFKk=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Detalle_Servicio",
+					"documentation": "$data = array(\n            'ID' => $DetalleServicio->get_ID(),\n            'LOCAL' => $DetalleServicio->get_Local(),\n            'PROVEEDOR' => $DetalleServicio->get_Proveedor(),\n            'CLIENTE' => $DetalleServicio->get_Cliente(),\n            'PERIODO' => $detalleServicio->get_Periodo(),\n            'DESDE' => $detalleServicio->get_desde(),\n            'HASTA' => $detalleServicio->get_Hasta(),\n            'TOTAL' => $detalleServicio->get_Total()\n            );\n        //Metodo que inserta los datos a la base de datos\n        //Parametros son 'tabla',$data\n        $resultado = $this->db->insert('DETALLE_SERVICIO',$data);\n        if ($resultado==1){\n            return true;\n        }\n        return false;",
+					"visibility": "public",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFSf2TqQT0Ntc4=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "ID",
+							"documentation": "Identificador auto incrementable del servicio",
+							"visibility": "private",
+							"isStatic": false,
+							"isLeaf": false,
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"defaultValue": "0",
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFSf2V1/D0XlFI=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "local",
+							"documentation": "numero del local al que esta referenciada este servicio",
+							"visibility": "private",
+							"isStatic": false,
+							"isLeaf": false,
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFSf2ZtRT0h4Pk=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "proveedor",
+							"documentation": "Proveedor que presta el servicio",
+							"visibility": "private",
+							"isStatic": false,
+							"isLeaf": false,
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFSf2c0uj0rfRo=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "cliente",
+							"documentation": "Numero de cliente al cual esta relacionado el servicio.",
+							"visibility": "private",
+							"isStatic": false,
+							"isLeaf": false,
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFSf2ewJz00C7w=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "periodo",
+							"documentation": "Periodo en meses por nombre al cual pertenece el servicio.",
+							"visibility": "private",
+							"isStatic": false,
+							"isLeaf": false,
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFSf2gxrj09EyI=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "desde",
+							"documentation": "La fecha desde cuando es el servicio.",
+							"visibility": "private",
+							"isStatic": false,
+							"isLeaf": false,
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFSf2i42j1HU00=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "hasta",
+							"documentation": "Fecha final del periodo del servicio",
+							"visibility": "private",
+							"isStatic": false,
+							"isLeaf": false,
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFSf2j46j1QiGs=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "total",
+							"documentation": "Monto total del servicio que se presto",
+							"visibility": "private",
+							"isStatic": false,
+							"isLeaf": false,
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf2l+MD1ZuaM=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "get_ID",
+							"documentation": "Obtiene la ID",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "return $this->ID;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf26xDj2iqao=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "set_ID",
+							"documentation": "Asigna una ID al Servicio.",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFSf29JWz2rVro=",
+									"_parent": {
+										"$ref": "AAAAAAFSf26xDj2iqao="
+									},
+									"name": "id",
+									"documentation": "id que se asignara al servicio",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "$this->ID=$id;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf2pGPj1iXDM=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "get_Local",
+							"documentation": "Obtiene el local",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "return $this->local;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf2+LCD2wPmw=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "set_Local",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFSf3CZiT25PA8=",
+									"_parent": {
+										"$ref": "AAAAAAFSf2+LCD2wPmw="
+									},
+									"name": "local",
+									"documentation": "local al que será asignado el servicio",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "$this->local = $local;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf2uC3j1053E=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "get_Proveedor",
+							"documentation": "Obtiene el proveedor asociado al servicio",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "return $this->proveedor;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf3ET1j2/ZEk=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "set_Proveedor",
+							"documentation": "Asigna el proveedor que presta el servicio",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFSf3HsGz3IGl4=",
+									"_parent": {
+										"$ref": "AAAAAAFSf3ET1j2/ZEk="
+									},
+									"name": "proveedor",
+									"documentation": "Proveedor que presta el servicio (Rut Proveedor)",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "$this->proveedor = $proveedor;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf2q/Fz1rMt0=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "get_Cliente",
+							"documentation": "Obtiene el cliente asociado al servicio",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "return $this->cliente;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf3LQZz3jA3E=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "set_Cliente",
+							"documentation": "Asigna  el cliente al cual pertenece el servicio(valor unico asiciado al proveedor)",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFSf3OpBz3srPE=",
+									"_parent": {
+										"$ref": "AAAAAAFSf3LQZz3jA3E="
+									},
+									"name": "cliente",
+									"documentation": "cliente que será asociado al servicio",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "$this->cliente = $cliente;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf2wtHz1+XxI=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "get_Periodo",
+							"documentation": "Obtiene el Periodo del Servicio",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "return $this->periodo;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf3QQcD31YQE=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "set_Periodo",
+							"documentation": "Periodo al cual está asociado el Servicio",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFSf3SrWj3+7rI=",
+									"_parent": {
+										"$ref": "AAAAAAFSf3QQcD31YQE="
+									},
+									"name": "periodo",
+									"documentation": "Periodo que se asignara ",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "$this->periodo  = $periodo;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf2ynwD2Htfo=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "get_desde",
+							"documentation": "Indica la fecha inicial del periodo",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "return $this->desde;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf3XRrz4JBHA=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "set_Desde",
+							"documentation": "Asigna la fecha desde cuendo se presto el servicio",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFSf3Z/Tz4SdeE=",
+									"_parent": {
+										"$ref": "AAAAAAFSf3XRrz4JBHA="
+									},
+									"name": "desde",
+									"documentation": "Fecha desde cuando se prestó el servicio.",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "$this->desde = $desde;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf20+XD2QJ8g=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "get_Hasta",
+							"documentation": "Obtiene la fecha final del servicio",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "return $this->hasta;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf3bhdD4ZSRo=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "set_Hasta",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFSf3eDvT4imcs=",
+									"_parent": {
+										"$ref": "AAAAAAFSf3bhdD4ZSRo="
+									},
+									"name": "hasta",
+									"documentation": "fecha final del servicio",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "$this->hasta = $hasta"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf25I7j2ZE6k=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "get_Total",
+							"documentation": "Obtiene el monto total del servicio",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "return $this->total;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf3fpAj4ofIU=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "set_Total",
+							"documentation": "Monto en $ del total que costo el servicio.",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "$this->total = $total;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf3h6lj4xmMc=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "create_Detalle_Servicio",
+							"documentation": "Ingresa un detalle servicio a la base de datos",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFSf3mklD47l8g=",
+									"_parent": {
+										"$ref": "AAAAAAFSf3h6lj4xmMc="
+									},
+									"name": "DetalleServicio",
+									"documentation": "Objeto detale servicio que se ingresara en la base de datos.",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "$data = array(\n            'ID' => $DetalleServicio->get_ID(),\n            'LOCAL' => $DetalleServicio->get_Local(),\n            'PROVEEDOR' => $DetalleServicio->get_Proveedor(),\n            'CLIENTE' => $DetalleServicio->get_Cliente(),\n            'PERIODO' => $DetalleServicio->get_Periodo(),\n            'DESDE' => $DetalleServicio->get_desde(),\n            'HASTA' => $DetalleServicio->get_Hasta(),\n            'TOTAL' => $DetalleServicio->get_Total()\n            );\n        //Metodo que inserta los datos a la base de datos\n        //Parametros son 'tabla',$data\n        $resultado = $this->db->insert('DETALLE_SERVICIO',$data);\n        if ($resultado==1){\n            return true;\n        }\n        return false;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf3oJFj5ApyM=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "update_Detalle_Servicio",
+							"documentation": "modifica un detalle servicio en la base de datos",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFSf3qVMj5IwAA=",
+									"_parent": {
+										"$ref": "AAAAAAFSf3oJFj5ApyM="
+									},
+									"name": "id",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFSf3rxEz5MFS8=",
+									"_parent": {
+										"$ref": "AAAAAAFSf3oJFj5ApyM="
+									},
+									"name": "detalleServicio",
+									"documentation": "Objeto detalle_Servicio que modificara los datos de la base de datos",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "$data = array(\n            'LOCAL' => $DetalleServicio->get_Local(),\n            'PROVEEDOR' => $DetalleServicio->get_Proveedor(),\n            'CLIENTE' => $DetalleServicio->get_Cliente(),\n            'PERIODO' => $DetalleServicio->get_Periodo(),\n            'DESDE' => $DetalleServicio->get_desde(),\n            'HASTA' => $DetalleServicio->get_Hasta(),\n            'TOTAL' => $DetalleServicio->get_Total()\n            );\n        $this->db->where('ID',$id);\n        $resultado = $this->db->update('DETALLE_SERVICIO',$data);\n        if($resultado=1){\n            return true;\n        }\n        return false;\n"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf3tk5z5R310=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "delete_Detalle_Servcio",
+							"documentation": "Elimina un detalle de la base de datos",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFSf3vktj5ZYy0=",
+									"_parent": {
+										"$ref": "AAAAAAFSf3tk5z5R310="
+									},
+									"name": "id",
+									"documentation": "Identificador del servicio que se quiere eliminar",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "$resultado = $this->db->delete('DETALLE_SERVICIO',array('ID' => $id));\n        if($resultado == 1){\n            return true;\n        }\n        return false;"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf3yYjz5elkY=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "listar_Detalle_Servicio",
+							"documentation": "Lista la información de la base de datos.",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "$this->db->select('*')->from('DETALLE_SERVICIO');\n        $query = $this->db->get();\n        if($query->num_rows()>0){\n            return $query->result();\n        }"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFSf4fq1z5nDtg=",
+							"_parent": {
+								"$ref": "AAAAAAFSf2KeLDziFKk="
+							},
+							"name": "to_table",
+							"documentation": "Genera una tabla con la informacion entregada",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFSf4kPGj5wQUA=",
+									"_parent": {
+										"$ref": "AAAAAAFSf4fq1z5nDtg="
+									},
+									"name": "consulta",
+									"documentation": "Informacion que se pasara a tabla",
+									"visibility": "public",
+									"isStatic": false,
+									"isLeaf": false,
+									"type": "",
+									"isReadOnly": false,
+									"isOrdered": false,
+									"isUnique": false,
+									"direction": "in"
+								}
+							],
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false,
+							"specification": "echo \"<table>\";\n        if($consulta != null){\n            $titulo = false;\n            foreach ($consulta as $fila) {\n                //Recupera Titulos\n                if(!$titulo){\n                    echo \"<tr>\";\n                    foreach ($fila as $key => $value) {\n                        echo \"<td>$key</td>\";\n                    }\n                    echo \"</tr>\";\n                $titulo=true;\n                }\n                //Recupera valor\n                echo \"<tr>\";\n                foreach ($fila as $key => $value) {\n                    echo \"<td>$value</td>\";\n                }\n                echo \"</tr>\";\n            }\n            echo \"</table>\";\n        }\n        echo \"</table>\";"
+						}
+					],
+					"isAbstract": false,
+					"isFinalSpecialization": false,
+					"isLeaf": false,
+					"isActive": false
+				}
+			],
+			"visibility": "public"
+		}
+	],
+	"author": "Andrés Felipe Olmos Navia",
+	"copyright": "aolmos",
+	"version": "0.0.1"
+}
