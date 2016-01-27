@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Detalle Servicio</title>
+</head>
+<body>
+
+	<h1>Ingresar Detalle</h1>
+	<form action="<?= base_url()?>/detalles/ingresarDetalle" method="POST">
+		<label for="ingresarLocal">local servicio:</label>
+		<input type="text" name="ingresarLocal"><br />
+		<label for="ingresarProveedor">proveedor del Servicio:</label>
+		<input type="text" name="ingresarProveedor"><br />
+		<label for="ingresarCliente">numero de cliente:</label>
+		<input type="text" name="ingresarCliente"><br />
+		<label for="ingresarPeriodo">Periodo Servicio:</label>
+		<input type="text" name="ingresarPeriodo"><br />
+		<label for="ingresarDesde">Fecha desde:</label>
+		<input type="date" name="ingresarDesde"><br />
+		<label for="ingresarHasta">Fecha hasta:</label>
+		<input type="date" name="ingresarHasta"><br />
+		<label for="ingresarTotal">Total Documento:</label>
+		<input type="text" name="ingresarTotal"><br />
+		<input type="submit">
+	</form>
+	<form action="<?= base_url()?>/detalles/eliminarDetalle" method="POST">
+		<label for="eliminarID">Identificador:</label>
+		<input type="text" name="eliminarID"><br />
+		<input type="submit">		
+	</form>
+</body>
+</html>

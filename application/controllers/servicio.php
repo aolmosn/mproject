@@ -119,6 +119,8 @@ Class Servicio extends CI_Controller{
 	//Controles Cliente_Servicio
 	public function administrarCliente(){
 		$this->load->view('administrarCliente.html');
+		$cliente = new Cliente_Servicio();
+		$cliente->to_table($cliente->listar_Cliente());
 	}
 	public function ingresarCliente(){
 		$id = $_POST['ingeresarID'];
@@ -127,6 +129,7 @@ Class Servicio extends CI_Controller{
 		$cliente = Cliente_Servicio::__construct1($id,$proveedor,$local);
 		$cliente->create_CleinteServicio($cliente);
 		$this->load->view('administrarCliente.html');
+		$cliente->to_table($cliente->listar_Cliente());
 	}
 	public function modificarCliente(){
 		$id = $_POST['modificarID'];
@@ -135,11 +138,13 @@ Class Servicio extends CI_Controller{
 		$cliente = CLiente_Servicio::__construct2($proveedor,$local);
 		$cliente->update_ClienteServicio($id,$cliente);
 		$this->load->view('administrarCliente.html');
+		$cliente->to_table($cliente->listar_Cliente());
 	}
 	public function eliminarCliente(){
 		$id = $_POST['modificarID'];
 		$cliente = new Cliente_Servicio();
 		$cliente->delete_ClienteServicio($id);
+		$cliente->to_table($cliente->listar_Cliente());
 	}	
 	//Fin Controles CLiente_Servicio
 }

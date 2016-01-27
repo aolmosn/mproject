@@ -4,13 +4,26 @@
 /**
  * @author Andrés Felipe Olmos Navia
  */
-class Detalle_Servicio
+class Detalle_Servicio extends CI_Model
 {
     /**
      *
      */
     public function __construct()
     {
+        parent::__construct();
+    }
+
+    public static function __construct1($local,$proveedor,$cliente,$periodo,$desde,$hasta,$total){
+        $detalle = new Detalle_Servicio();
+        $detalle->set_Local($local);
+        $detalle->set_Proveedor($proveedor);
+        $detalle->set_Cliente($cliente);
+        $detalle->set_Periodo($periodo);
+        $detalle->set_Desde($desde);
+        $detalle->set_Hasta($hasta);
+        $detalle->set_Total($total);
+        return $detalle;
     }
 
     /**
@@ -167,7 +180,7 @@ class Detalle_Servicio
      */
     public function set_Hasta($hasta)
     {
-        $this->hasta = $hasta
+        $this->hasta = $hasta;
     }
 
     /**
@@ -181,7 +194,7 @@ class Detalle_Servicio
     /**
      * Monto en $ del total que costo el servicio.
      */
-    public function set_Total()
+    public function set_Total($total)
     {
         $this->total = $total;
     }
